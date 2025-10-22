@@ -1,0 +1,11 @@
+{
+  "name": "BIAWAK",
+  "symbol": "BWK",
+  "description": "BIAWAK V3 token PRO 200 fitur Web3, ERC-20 upgradeable, governance, staking, reflection, dynamic fee, AI supply control, multi-chain bridge, NFT gating optional.",
+  "supply": "1000000000",
+  "decimals": "18",
+  "treasury_wallet": "0x095C20E1046805d33c5f1cCe7640F1DD4b693a49",
+  "special_wallet": "0xE0FB20c169d6EE15Bb7A55b5F71199099aD4464F",
+  "unlock_timestamp": "1798761600",
+  "chain": "Ethereum"
+}
