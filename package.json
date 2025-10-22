@@ -1,0 +1,30 @@
+{
+  "name": "biawaktoken200",
+  "version": "1.0.0",
+  "description": "BIAWAK Token V3 - ERC20 Upgradeable with 200 Web3 features",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js --network mainnet",
+    "deploy-test": "npx hardhat run scripts/deploy.js --network goerli",
+    "verify": "npx hardhat run scripts/verify.js --network mainnet",
+    "verify-test": "npx hardhat run scripts/verify.js --network goerli",
+    "test": "npx hardhat test",
+    "lint": "npx eslint . --ext .js,.ts",
+    "format": "npx prettier --write ."
+  },
+  "keywords": ["ethereum", "erc20", "token", "upgradeable", "hardhat", "web3", "defi", "staking", "governance"],
+  "author": "BIAWAK Team",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.8.0",
+    "hardhat": "^2.15.0",
+    "@openzeppelin/contracts-upgradeable": "^5.3.0",
+    "@openzeppelin/hardhat-upgrades": "^1.28.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.48.0",
+    "prettier": "^3.0.0"
+  }
+}
